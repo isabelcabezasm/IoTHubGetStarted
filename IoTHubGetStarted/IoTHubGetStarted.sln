@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendCloudToDevice", "SendCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTagsAndQuery", "AddTagsAndQuery\AddTagsAndQuery.csproj", "{2AED53A1-E939-43DC-BFC3-93BB7B8BB72A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportConnectivity", "ReportConnectivity\ReportConnectivity.csproj", "{86340CF3-1DEE-4947-BF80-4D9CB7191DD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2AED53A1-E939-43DC-BFC3-93BB7B8BB72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AED53A1-E939-43DC-BFC3-93BB7B8BB72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AED53A1-E939-43DC-BFC3-93BB7B8BB72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86340CF3-1DEE-4947-BF80-4D9CB7191DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86340CF3-1DEE-4947-BF80-4D9CB7191DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86340CF3-1DEE-4947-BF80-4D9CB7191DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86340CF3-1DEE-4947-BF80-4D9CB7191DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
