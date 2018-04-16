@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "Simulate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{8FA2ECDA-7126-4731-AC19-FFA10F6164B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendCloudToDevice", "SendCloudToDevice\SendCloudToDevice.csproj", "{4FC0C47D-86AC-4B90-A092-93CAD12FE4C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8FA2ECDA-7126-4731-AC19-FFA10F6164B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA2ECDA-7126-4731-AC19-FFA10F6164B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA2ECDA-7126-4731-AC19-FFA10F6164B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC0C47D-86AC-4B90-A092-93CAD12FE4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC0C47D-86AC-4B90-A092-93CAD12FE4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC0C47D-86AC-4B90-A092-93CAD12FE4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC0C47D-86AC-4B90-A092-93CAD12FE4C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
