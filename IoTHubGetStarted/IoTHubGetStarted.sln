@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDeviceIdentity", "CreateDeviceIdentity\CreateDeviceIdentity.csproj", "{2A0E7648-9BE2-42DF-9CA0-9945BAEFBCC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{903BD44B-BCA1-468A-955F-AEB821058EAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2A0E7648-9BE2-42DF-9CA0-9945BAEFBCC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0E7648-9BE2-42DF-9CA0-9945BAEFBCC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0E7648-9BE2-42DF-9CA0-9945BAEFBCC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{903BD44B-BCA1-468A-955F-AEB821058EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{903BD44B-BCA1-468A-955F-AEB821058EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{903BD44B-BCA1-468A-955F-AEB821058EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{903BD44B-BCA1-468A-955F-AEB821058EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
