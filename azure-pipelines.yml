@@ -19,7 +19,8 @@ steps:
 - pwsh: |
     Write-Host "This multiline script always runs in PowerShell Core."
     Write-Host "Even on non-Windows machines!"
-
+- powershell: .\my-script.ps1
+  displayName: 'Isa Powershell'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
