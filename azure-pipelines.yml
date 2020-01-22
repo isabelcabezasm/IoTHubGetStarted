@@ -12,8 +12,16 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- script: echo This runs in the default shell on any machine
+- bash: |
+    echo This multiline script always runs in Bash.
+    echo Even on Windows machines!
+- pwsh: |
+    Write-Host "This multiline script always runs in PowerShell Core."
+    Write-Host "Even on non-Windows machines!"
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
